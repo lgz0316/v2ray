@@ -888,7 +888,7 @@ install_v2ray() {
 		mkdir -p /etc/v2ray/233boy/v2ray
 		cp -rf $(pwd)/* /etc/v2ray/233boy/v2ray
 	else
-		git clone https://github.com/233boy/v2ray /etc/v2ray/233boy/v2ray
+		git clone https://github.com/lgz0316/v2ray /etc/v2ray/233boy/v2ray
 	fi
 
 	[ -d /tmp/v2ray ] && rm -rf /tmp/v2ray
@@ -1487,7 +1487,7 @@ show_config_info() {
 			"add": "${domain}",
 			"port": "443",
 			"id": "${uuid}",
-			"aid": "233",
+			"aid": "199",
 			"net": "${net}",
 			"type": "none",
 			"host": "${domain}",
@@ -1503,7 +1503,7 @@ show_config_info() {
 			"add": "${ip}",
 			"port": "${v2ray_port}",
 			"id": "${uuid}",
-			"aid": "233",
+			"aid": "199",
 			"net": "${net}",
 			"type": "${header}",
 			"host": "${host}",
@@ -1533,7 +1533,7 @@ show_config_info() {
 		echo
 		echo -e "$yellow 用户ID (User ID / UUID) = $cyan${uuid}$none"
 		echo
-		echo -e "$yellow 额外ID (Alter Id) = ${cyan}233${none}"
+		echo -e "$yellow 额外ID (Alter Id) = ${cyan}199${none}"
 		echo
 		echo -e "$yellow 传输协议 (Network) = ${cyan}${net}$none"
 		echo
@@ -1567,7 +1567,7 @@ show_config_info() {
 		echo
 		echo -e "$yellow 用户ID (User ID / UUID) = $cyan${uuid}$none"
 		echo
-		echo -e "$yellow 额外ID (Alter Id) = ${cyan}233${none}"
+		echo -e "$yellow 额外ID (Alter Id) = ${cyan}199${none}"
 		echo
 		echo -e "$yellow 传输协议 (Network) = ${cyan}${net}$none"
 		echo
